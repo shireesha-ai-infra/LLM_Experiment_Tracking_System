@@ -1,0 +1,9 @@
+mlflow
+torch
+scikit-learn
+numpy
+pandas
+sentence-transformers
+faiss-cpu
+openai
+tqdm
