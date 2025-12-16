@@ -1,0 +1,14 @@
+artifact_uri: file:///Volumes/AI_Projects_Production/Life_Cycle_Projects/LLM_Experiment_Tracking_System/mlruns/522018898249885614/49b95f07757a4dd3bd37bc3ac27de0c4/artifacts
+end_time: 1765887772221
+entry_point_name: ''
+experiment_id: '522018898249885614'
+lifecycle_stage: active
+run_id: 49b95f07757a4dd3bd37bc3ac27de0c4
+run_name: crawling-foal-138
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1765887743623
+status: 3
+tags: []
+user_id: shireesha

@@ -1,0 +1,10 @@
+artifact_location: file:///Volumes/AI_Projects_Production/Life_Cycle_Projects/LLM_Experiment_Tracking_System/mlruns/522018898249885614/models/m-f51ff484a06d438c8a97afa0cfeff5ee/artifacts
+creation_timestamp: 1765887761813
+experiment_id: '522018898249885614'
+last_updated_timestamp: 1765887768455
+model_id: m-f51ff484a06d438c8a97afa0cfeff5ee
+model_type: null
+name: NN_model
+source_run_id: 05410a086aac4701991cdf42198c94c3
+status: 2
+status_message: null

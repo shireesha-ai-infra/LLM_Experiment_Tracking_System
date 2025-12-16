@@ -6,6 +6,8 @@ import torch.optim as optim
 from sklearn.datasets import load_breast_cancer
 from sklearn.model_selection import train_test_split
 from sklearn.preprocessing import StandardScaler
+import mlflow
+mlflow.set_tracking_uri("file:./mlruns")
 
 # Load data
 X, y = load_breast_cancer(return_X_y=True)
@@ -55,6 +57,6 @@ with mlflow.start_run():
         accuracy = (preds == y_test).float().mean().item()
 
     mlflow.log_metric("accuracy", accuracy)
-    mlflow.pytorch.log_model(model, "model")
+    mlflow.pytorch.log_model(model, name="NN_model")
 
 print("ML experiment logged to MLflow")

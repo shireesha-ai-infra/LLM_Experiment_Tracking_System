@@ -2,6 +2,8 @@ import time
 import mlflow
 from rag.retriever import FaissRetriever
 from evaluation.llm_eval import simple_quality_score
+import mlflow
+mlflow.set_tracking_uri("file:./mlruns")
 
 # Fake LLM call (replace with OpenAI or local LLM later)
 def call_llm(prompt):

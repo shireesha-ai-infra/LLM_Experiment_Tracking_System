@@ -1,0 +1,23 @@
+artifact_path: /Volumes/AI_Projects_Production/Life_Cycle_Projects/LLM_Experiment_Tracking_System/mlruns/1/models/m-90f0a2ffc3f94db0b10e251cbbd31b37/artifacts
+flavors:
+  python_function:
+    config:
+      device: null
+    data: data
+    env:
+      conda: conda.yaml
+      virtualenv: python_env.yaml
+    loader_module: mlflow.pytorch
+    pickle_module_name: mlflow.pytorch.pickle_module
+    python_version: 3.11.14
+  pytorch:
+    code: null
+    model_data: data
+    pytorch_version: 2.5.1
+mlflow_version: 3.7.0
+model_id: m-90f0a2ffc3f94db0b10e251cbbd31b37
+model_size_bytes: 11548
+model_uuid: m-90f0a2ffc3f94db0b10e251cbbd31b37
+prompts: null
+run_id: c35b96778e95443b8d70fc558c8b6cb1
+utc_time_created: '2025-12-16 12:20:56.153776'

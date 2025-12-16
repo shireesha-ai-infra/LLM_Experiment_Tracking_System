@@ -1,0 +1,6 @@
+destination_id: m-ab20452ac4844bb4b4b792ceeac31970
+destination_type: MODEL_OUTPUT
+source_id: m-ab20452ac4844bb4b4b792ceeac31970
+source_type: RUN_OUTPUT
+step: 0
+tags: {}

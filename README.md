@@ -19,3 +19,9 @@ for both ML models and LLM pipelines.
 
 ## Tech Stack
 MLflow, PyTorch, FAISS, SentenceTransformers
+
+
+> Always execute scripts from the project root using `python -m` to ensure correct module resolution.
+
+Here, all scripts must be executed from the project root using:
+python -m <module.path>
